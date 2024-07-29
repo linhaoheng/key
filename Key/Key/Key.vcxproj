@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{c723fb7d-7da3-4f58-ab1a-6e336d1207af}</ProjectGuid>
+    <RootNamespace>Key</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="D2D1Timer.h" />
+    <ClInclude Include="DemoApp.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DemoApp.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Key.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\bg.png" />
+    <Image Include="images\keyboard\0.png" />
+    <Image Include="images\keyboard\1.png" />
+    <Image Include="images\keyboard\10.png" />
+    <Image Include="images\keyboard\11.png" />
+    <Image Include="images\keyboard\12.png" />
+    <Image Include="images\keyboard\13.png" />
+    <Image Include="images\keyboard\14.png" />
+    <Image Include="images\keyboard\15.png" />
+    <Image Include="images\keyboard\16.png" />
+    <Image Include="images\keyboard\17.png" />
+    <Image Include="images\keyboard\18.png" />
+    <Image Include="images\keyboard\19.png" />
+    <Image Include="images\keyboard\2.png" />
+    <Image Include="images\keyboard\20.png" />
+    <Image Include="images\keyboard\21.png" />
+    <Image Include="images\keyboard\22.png" />
+    <Image Include="images\keyboard\23.png" />
+    <Image Include="images\keyboard\24.png" />
+    <Image Include="images\keyboard\25.png" />
+    <Image Include="images\keyboard\26.png" />
+    <Image Include="images\keyboard\27.png" />
+    <Image Include="images\keyboard\28.png" />
+    <Image Include="images\keyboard\29.png" />
+    <Image Include="images\keyboard\3.png" />
+    <Image Include="images\keyboard\30.png" />
+    <Image Include="images\keyboard\31.png" />
+    <Image Include="images\keyboard\32.png" />
+    <Image Include="images\keyboard\33.png" />
+    <Image Include="images\keyboard\34.png" />
+    <Image Include="images\keyboard\35.png" />
+    <Image Include="images\keyboard\36.png" />
+    <Image Include="images\keyboard\37.png" />
+    <Image Include="images\keyboard\38.png" />
+    <Image Include="images\keyboard\39.png" />
+    <Image Include="images\keyboard\4.png" />
+    <Image Include="images\keyboard\40.png" />
+    <Image Include="images\keyboard\41.png" />
+    <Image Include="images\keyboard\42.png" />
+    <Image Include="images\keyboard\43.png" />
+    <Image Include="images\keyboard\44.png" />
+    <Image Include="images\keyboard\45.png" />
+    <Image Include="images\keyboard\46.png" />
+    <Image Include="images\keyboard\47.png" />
+    <Image Include="images\keyboard\48.png" />
+    <Image Include="images\keyboard\49.png" />
+    <Image Include="images\keyboard\5.png" />
+    <Image Include="images\keyboard\50.png" />
+    <Image Include="images\keyboard\51.png" />
+    <Image Include="images\keyboard\52.png" />
+    <Image Include="images\keyboard\53.png" />
+    <Image Include="images\keyboard\54.png" />
+    <Image Include="images\keyboard\55.png" />
+    <Image Include="images\keyboard\56.png" />
+    <Image Include="images\keyboard\57.png" />
+    <Image Include="images\keyboard\58.png" />
+    <Image Include="images\keyboard\59.png" />
+    <Image Include="images\keyboard\6.png" />
+    <Image Include="images\keyboard\60.png" />
+    <Image Include="images\keyboard\61.png" />
+    <Image Include="images\keyboard\62.png" />
+    <Image Include="images\keyboard\63.png" />
+    <Image Include="images\keyboard\64.png" />
+    <Image Include="images\keyboard\65.png" />
+    <Image Include="images\keyboard\66.png" />
+    <Image Include="images\keyboard\67.png" />
+    <Image Include="images\keyboard\68.png" />
+    <Image Include="images\keyboard\69.png" />
+    <Image Include="images\keyboard\7.png" />
+    <Image Include="images\keyboard\70.png" />
+    <Image Include="images\keyboard\71.png" />
+    <Image Include="images\keyboard\72.png" />
+    <Image Include="images\keyboard\73.png" />
+    <Image Include="images\keyboard\74.png" />
+    <Image Include="images\keyboard\75.png" />
+    <Image Include="images\keyboard\76.png" />
+    <Image Include="images\keyboard\77.png" />
+    <Image Include="images\keyboard\78.png" />
+    <Image Include="images\keyboard\79.png" />
+    <Image Include="images\keyboard\8.png" />
+    <Image Include="images\keyboard\80.png" />
+    <Image Include="images\keyboard\81.png" />
+    <Image Include="images\keyboard\82.png" />
+    <Image Include="images\keyboard\83.png" />
+    <Image Include="images\keyboard\84.png" />
+    <Image Include="images\keyboard\85.png" />
+    <Image Include="images\keyboard\9.png" />
+    <Image Include="Key.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\f键拉栓的声音.wav" />
+    <Media Include="sounds\iphone 00_00_00-.wav" />
+    <Media Include="sounds\Space 00_00_00-00_00_00.wav" />
+    <Media Include="sounds\功能键.wav" />
+    <Media Include="sounds\回车.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

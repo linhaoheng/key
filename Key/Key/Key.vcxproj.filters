@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\images">
+      <UniqueIdentifier>{dc7abf3f-46b8-40de-883c-0d70e73ea9ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\sounds">
+      <UniqueIdentifier>{0a0f4b11-8011-4959-b9e3-0e5a93257d9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\images\keyboard">
+      <UniqueIdentifier>{f05f5f09-421f-4238-9d25-be00d67a7108}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="D2D1Timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Key.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Key.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="images\keyboard\0.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\1.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\2.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\3.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\4.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\5.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\6.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\7.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\8.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\9.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\10.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\11.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\12.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\13.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\14.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\16.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\18.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\19.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\22.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\23.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\26.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\20.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\21.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\24.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\25.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\28.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\30.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\31.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\32.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\29.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\33.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\34.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\35.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\37.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\39.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\41.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\36.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\38.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\40.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\43.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\44.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\45.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\46.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\47.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\42.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\49.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\27.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\15.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\17.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\48.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\50.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\51.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\52.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\53.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\54.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\55.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\56.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\57.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\58.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\59.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\60.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\61.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\62.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\63.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\64.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\65.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\66.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\67.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\68.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\69.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\70.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\71.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\72.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\73.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\74.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\75.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\76.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\77.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\78.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\80.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\79.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\81.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\82.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\83.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\84.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\keyboard\85.png">
+      <Filter>资源文件\images\keyboard</Filter>
+    </Image>
+    <Image Include="images\bg.png">
+      <Filter>资源文件\images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\功能键.wav">
+      <Filter>资源文件\sounds</Filter>
+    </Media>
+    <Media Include="sounds\f键拉栓的声音.wav">
+      <Filter>资源文件\sounds</Filter>
+    </Media>
+    <Media Include="sounds\回车.wav">
+      <Filter>资源文件\sounds</Filter>
+    </Media>
+    <Media Include="sounds\iphone 00_00_00-.wav">
+      <Filter>资源文件\sounds</Filter>
+    </Media>
+    <Media Include="sounds\Space 00_00_00-00_00_00.wav">
+      <Filter>资源文件\sounds</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
